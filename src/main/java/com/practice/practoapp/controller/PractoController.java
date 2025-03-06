@@ -10,6 +10,6 @@ public class PractoController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello from Spring Boot";
+		return "Hello from Spring Boot for feature PROJ-123";
 	}
 }
